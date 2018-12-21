@@ -10,3 +10,10 @@
 
 # Output of the go coverage tool, specifically when used with LiteIDE
 *.out
+
+zzz-*.go
+.DS_Store
+public/css/all.css
+public/js/all.js
+.idea/*
+.idea/*/*

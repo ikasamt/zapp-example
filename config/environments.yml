@@ -1,0 +1,5 @@
+development:
+  session_salt: u3aiafXM
+
+production:
+  session_salt: u3aiafXM

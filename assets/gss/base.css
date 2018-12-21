@@ -1,0 +1,21 @@
+@def COLOR_PRIMARY #EF5350;
+@def COLOR_SECONDARY #EF9A9A;
+
+@def COLOR_TEXT #000000;
+@def COLOR_BORDER #000000;
+
+@def COLOR_SUCCESS #00C853;
+@def COLOR_WARNING #EEFF41;
+@def COLOR_ERROR #D50000;
+
+
+@defmixin border-radius(SIZE) {
+    border-radius: SIZE;
+    -webkit-border-radius: SIZE;
+    -moz-border-radius: SIZE;
+}
+
+
+.red{
+    color: COLOR_ERROR !important;
+}
